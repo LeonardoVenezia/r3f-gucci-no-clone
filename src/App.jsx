@@ -4,8 +4,6 @@ import Images from "./components/Images";
 import Modal from "./components/Modal";
 import { useState } from "react";
 
-
-
 function App() {
   const [position, setPosition] = useState(0);
   const [open, setOpen] = useState(false);
